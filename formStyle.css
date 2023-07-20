@@ -1,0 +1,176 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: 'Baloo 2', cursive;
+}
+form{
+  box-shadow: 0 0 10px rgba(0,0,0,.6);
+  padding: 30px;
+  border-radius: 10px;
+  margin: 50px;
+  height:auto;
+  width:520px;
+ 
+  
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center ;
+  margin: 100px;
+}
+button{
+  padding: 10px 50px;
+  background :royalblue;
+  color: white ;
+  border:none;
+  border-radius: 10px;
+  font-size: 20px;
+  align-items: center;
+  margin-left: 200px;
+  margin-top: 20px;
+  
+}
+h2{
+  font-family: 'Baloo 2', cursive;
+  
+}
+.imgContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+img{
+  height: 400px;
+}
+h1{
+  font-size: 70px;
+  font-weight: 600px;
+  font-family: 'Baloo 2', cursive;
+  
+}
+form #first , #last , #email , #mobile , #wp , #aadhar{
+  padding:8px 20px;
+  border:none;
+  border-radius: 10px;
+  background: whitesmoke;
+  margin-left: 20px;
+  box-shadow: 0 0 5px rgba(0,0,0,.6);
+}
+form #add{
+  padding: 20px 20px;
+  border:none;
+  border-radius:10px;
+  background: whitesmoke;
+  margin-left: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,.6);
+  
+}
+form #option {
+  padding: 7px 30px;
+  border:none;
+  background: whitesmoke;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,.6);
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px ;
+  top:0px;
+  background: royalblue;
+  color: white ;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+ @media (max-width: 400px) {
+   form{
+  box-shadow: 0 0 10px rgba(0,0,0,.6);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 50px;
+  height:auto;
+  width:300px;
+ 
+  
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center ;
+  margin: 100px;
+}
+.container h2{
+  font-size: 18px;
+}
+button{
+  padding: 10px 20px;
+  background: mediumpurple;
+  color: white ;
+  border:none;
+  border-radius: 10px;
+  font-size: 20px;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.imgContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+img{
+  height: 300px;
+}
+h1{
+  font-size: 30px;
+  font-weight: 600px;
+  
+}
+form #first , #last , #email , #mobile , #wp , #aadhar{
+  padding:8px 20px;
+  border:none;
+  border-radius: 10px;
+  background: whitesmoke;
+  margin-left: 20px;
+  margin-top: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,.6);
+}
+form #add{
+  padding: 20px 20px;
+  border:none;
+  border-radius:10px;
+  background: whitesmoke;
+  margin-left: 10px;
+  margin-top: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,.6);
+  
+}
+form #option {
+  padding: 7px 0px;
+  border:none;
+  background: whitesmoke;
+  border-radius: 5px;
+  margin-top: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,.6);
+}
+
+   
+   
+   
+   
+ }  
+  
+  
+
+  
+  
+  
